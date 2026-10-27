@@ -15,6 +15,8 @@ from prompts import agent_system_prompt
 
 load_dotenv()
 
+
+
 agent = create_agent(
     model=model,
     system_prompt=agent_system_prompt,
@@ -56,5 +58,5 @@ def run_conversation():
 
     print("This job is done!")
     
-if __name__ == "__main__":
-    run_conversation()
+# if __name__ == "__main__":
+#     run_conversation()
